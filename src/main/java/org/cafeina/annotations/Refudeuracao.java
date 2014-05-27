@@ -34,6 +34,8 @@ import java.lang.annotation.RetentionPolicy;
  * Anotação que indica que um engenhoso processo de refatorar diversas vezes
  * um código bem escrito até dar origem a uma porcaria que não pode ser
  * mantida por mais ninguém foi feito com sucesso!
+ *
+ * @author Marcelo Guimarães
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

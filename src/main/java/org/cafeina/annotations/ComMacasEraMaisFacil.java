@@ -32,7 +32,8 @@ import java.lang.annotation.RetentionPolicy;
 
 /**
  * Com laranjas é complicado demais. Se fosse com maçãs era
- * mais fácil.
+ * mais fácil. Esta anotação é dedicada aos descendentes diretos do
+ * <a href="http://vidadeprogramador.com.br/tag/alonso">Alonso</a>.
  *
  * @author Marcelo Guimarães
  */
