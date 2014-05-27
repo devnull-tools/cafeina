@@ -40,4 +40,10 @@ import java.lang.annotation.RetentionPolicy;
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
 public @interface QuandoEuChegueiJaEstavaAssim {
+
+  /**
+   * Indica os pobres mantenedores oprimidos por este código surreal.
+   */
+  String[] oprimidosPeloSistema() default {};
+
 }

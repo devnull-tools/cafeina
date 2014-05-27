@@ -40,6 +40,6 @@ public @interface Dejavu {
   /**
    * Locais onde o código já foi visto aprontando das suas.
    */
-  String[] value() default {};
+  String[] locais() default {};
 
 }
