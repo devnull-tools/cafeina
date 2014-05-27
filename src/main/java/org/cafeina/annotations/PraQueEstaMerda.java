@@ -26,12 +26,18 @@
 
 package org.cafeina.annotations;
 
+import java.lang.annotation.Documented;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
 /**
  * Encontrou um código mais fedorento do que um gambá bêbado no lixão?
  * Use esta anotação e indique uma maneira mais simples de se fazer as coisas.
  *
  * @author Marcelo Guimarães
  */
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
 public @interface PraQueEstaMerda {
 
   /**
