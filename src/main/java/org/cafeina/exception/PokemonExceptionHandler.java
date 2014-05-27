@@ -32,9 +32,10 @@ import java.util.Collection;
 import java.util.LinkedList;
 
 /**
- * Classe que implementa o padrão de projeto Pokemon Exception Handling,
- * que consiste em capturar todas as exceções e aumentar a taxa de suicídio
- * entre os mantenedores de código!
+ * Classe que implementa o padrão de projeto Pokemon Exception Handling
+ * (catalogado por <a href="http://stackoverflow.com/users/205426/woot4moo">
+ * woot4moo</a>), que consiste em capturar todas as exceções e aumentar a taxa
+ * de suicídio entre os mantenedores de código!
  *
  * @author Marcelo Guimarães
  */

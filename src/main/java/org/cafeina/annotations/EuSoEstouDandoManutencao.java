@@ -34,7 +34,7 @@ import java.lang.annotation.RetentionPolicy;
  * Anotação usada para indicar que você não foi o responsável por nenhuma
  * cagada, apenas corrigiu algum bug (geralmente um carinhoso NPE) ou
  * implementou alguma funcionalidade exótica.
- * <p/>
+ *
  * Esta anotação automaticamente valida qualquer tipo de gambiarra maquiavélica.
  *
  * @author Marcelo Guimarães

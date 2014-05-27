@@ -36,6 +36,10 @@ import java.lang.annotation.RetentionPolicy;
  * erro, softwares não instalados no computador e outras coisas que tornam o
  * bug praticamente impossível de identificar (se é que ele de fato existe).
  *
+ * Este nome é uma adaptação do termo Higgs-Bugson, bolado por
+ * <a href="http://stackoverflow.com/users/231999/gingerbreadboy">
+ * gingerbreadboy</a>
+ *
  * @author Marcelo Guimarães
  */
 @Documented

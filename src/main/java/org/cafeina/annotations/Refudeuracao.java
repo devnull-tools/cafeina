@@ -35,6 +35,9 @@ import java.lang.annotation.RetentionPolicy;
  * um código bem escrito até dar origem a uma porcaria que não pode ser
  * mantida por mais ninguém foi feito com sucesso!
  *
+ * Este nome é uma adaptação do termo Refuctoring, bolado por
+ * <a href="http://www.codemanship.co.uk/">Jason Gorman</a>.
+ *
  * @author Marcelo Guimarães
  */
 @Documented

@@ -33,7 +33,7 @@ import java.lang.annotation.RetentionPolicy;
 /**
  * Anotação que indica uma funcionalidade que, por se tratar de outros objetos
  * envolvidos, foi implementada de uma maneira não muito ortodoxa.
- * <p/>
+ *
  * Esta anotação é dedicada aos descendentes diretos do
  * <a href="http://vidadeprogramador.com.br/tag/alonso">Alonso</a>, mas todos
  * são livres para utilizá-la como bem entender.
