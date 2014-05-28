@@ -36,9 +36,6 @@ import java.lang.annotation.Documented;
 @Documented
 public @interface VaoSeFoderem {
 
-  /**
-   * Se quiser, diga a todos o motivo de sua cólera assassina.
-   */
   String[] value() default {};
 
 }
