@@ -33,8 +33,8 @@ package org.cafeina;
  */
 public interface Constantes {
 
-  String ETC = "etc.";
-
   String TODOS_VOCES = "Todos Vocês";
+
+  String NINGUEM = "Ninguém";
 
 }

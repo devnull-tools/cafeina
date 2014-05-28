@@ -26,6 +26,8 @@
 
 package org.cafeina.annotations.sentimento;
 
+import org.cafeina.Constantes;
+
 import java.lang.annotation.Documented;
 
 /**
@@ -36,6 +38,6 @@ import java.lang.annotation.Documented;
 @Documented
 public @interface VaoSeFoderem {
 
-  String[] value() default {};
+  String[] value() default Constantes.TODOS_VOCES;
 
 }

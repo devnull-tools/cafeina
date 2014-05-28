@@ -34,7 +34,7 @@ import java.lang.annotation.Documented;
  * @author Marcelo Guimarães
  */
 @Documented
-public @interface SoFizAquiloQueMandaram {
+public @interface SoFizOQueMandaram {
 
   /**
    * Indica os mandantes. Provavelmente ninguém poderá apontá-los.

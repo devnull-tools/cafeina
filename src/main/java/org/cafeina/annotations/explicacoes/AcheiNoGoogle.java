@@ -36,7 +36,7 @@ import java.lang.annotation.Documented;
  * de culpa.
  *
  * @author Marcelo Guimarães
- * @see org.cafeina.annotations.sentimento.SoFizAquiloQueMandaram
+ * @see org.cafeina.annotations.sentimento.SoFizOQueMandaram
  */
 @Lavoisier
 @Documented

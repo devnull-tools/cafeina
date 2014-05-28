@@ -26,6 +26,8 @@
 
 package org.cafeina.annotations.padroes;
 
+import org.cafeina.Constantes;
+
 import java.lang.annotation.Documented;
 
 /**
@@ -36,4 +38,7 @@ import java.lang.annotation.Documented;
  */
 @Documented
 public @interface SomenteOsInteligentesPodemVer {
+
+  String[] quemJaConseguiu() default Constantes.NINGUEM;
+
 }

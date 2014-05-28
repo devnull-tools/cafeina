@@ -26,6 +26,8 @@
 
 package org.cafeina.annotations.sentimento;
 
+import org.cafeina.Constantes;
+
 import java.lang.annotation.Documented;
 
 /**
@@ -43,6 +45,6 @@ public @interface SouFoda {
   /**
    * Chupem essa, seus covardes!
    */
-  String[] chupa() default {};
+  String[] chupemEssa() default Constantes.TODOS_VOCES;
 
 }

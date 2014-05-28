@@ -46,6 +46,8 @@ public enum Ingredientes {
   PIMENTA_DO_REINO,
   PRESUNTO,
   SALSA,
-  SALSICHA
+  SALSICHA,
+  MILHO,
+  ERVILHA
 
 }
