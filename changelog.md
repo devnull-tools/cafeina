@@ -16,6 +16,7 @@
     - TiveEssaIdeia
     - ProbabilidadeDeDarMerda
     - EmTerraDePernetaQualquerChuteEhVoadora
+    - PropriedadeDe
   
 - Constantes para melhorar a escrita
 
