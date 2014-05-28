@@ -4,6 +4,10 @@ Este é o cafeína (CAixa de FErramentas INúteis para Anotações), um projeto 
 
 Este projeto tem uma forte influência do [Google Annotations Gallery][gag] e do [New Programming Jargon][npj], bem como usa diversas figurinhas conhecidas pelos programadores brasileiros, como o glorioso [Gérson][gerson] e o ~~pouco~~ nem um pouco talentoso [Alonso][alonso].
 
+# Montando o Projeto
+
+Basta executar o comando `gradle dist` e pronto!
+
 [npj]: <http://blog.codinghorror.com/new-programming-jargon>
 [gag]: <https://code.google.com/p/gag/>
 [gerson]: <http://vidadesuporte.com.br/tag/gerson-suporte-a-serie>
