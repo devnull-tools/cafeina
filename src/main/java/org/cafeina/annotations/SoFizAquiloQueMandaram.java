@@ -29,16 +29,15 @@ package org.cafeina.annotations;
 import java.lang.annotation.Documented;
 
 /**
- * Anotação para transferência de culpa.
+ * Anotação para transferência de culpa (mesmo que seja sua).
  *
  * @author Marcelo Guimarães
  */
 @Documented
-public @interface SoFizOQueMeMandaram {
+public @interface SoFizAquiloQueMandaram {
 
   /**
-   * Indica os mandantes. Provavelmente ninguém poderá apontá-los, mas
-   * vai que alguém tenha bolas avantajadas...
+   * Indica os mandantes. Provavelmente ninguém poderá apontá-los.
    */
   String[] mandantesDoCrime() default {};
 
