@@ -1,3 +1,4 @@
-.idea/workspace
+.idea/workspace.xml
 .gradle
 out
+build
