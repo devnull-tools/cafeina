@@ -29,7 +29,8 @@ package org.cafeina.annotations;
 import java.lang.annotation.Documented;
 
 /**
- * Não mexa! Tá funcionando!
+ * Não mexa! Tá funcionando! Qualquer tentativa de melhoria pode acarretar
+ * no surgimento de um {@link org.cafeina.annotations.CodigoHidra código hidra}.
  *
  * @author Marcelo Guimarães
  */

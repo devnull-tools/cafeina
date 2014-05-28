@@ -29,7 +29,8 @@ package org.cafeina.annotations;
 import java.lang.annotation.Documented;
 
 /**
- * Nenhum código pode ser assim tão tosco!
+ * Nenhum código pode ser assim tão tosco! Possivelmente é o maior desafio
+ * para um mantenedor {@link org.cafeina.annotations.SouFoda muito experiente}.
  *
  * @author Marcelo Guimarães
  */
