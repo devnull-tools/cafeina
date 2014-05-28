@@ -38,6 +38,8 @@ public @interface SoFizAquiloQueMandaram {
 
   /**
    * Indica os mandantes. Provavelmente ninguém poderá apontá-los.
+   *
+   * @return os mandantes do crime (se alguém tiver coragem de apontá-los).
    */
   String[] mandantesDoCrime() default {};
 

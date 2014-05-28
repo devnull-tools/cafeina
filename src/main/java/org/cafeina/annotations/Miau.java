@@ -40,6 +40,8 @@ public @interface Miau {
 
   /**
    * Nível da gambiarra.
+   *
+   * @return nível da gambiarra.
    */
   NivelDeMiau nivel() default NivelDeMiau.GATO;
 

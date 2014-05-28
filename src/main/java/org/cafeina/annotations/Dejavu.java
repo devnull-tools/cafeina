@@ -38,6 +38,8 @@ public @interface Dejavu {
 
   /**
    * Locais onde o código já foi visto aprontando das suas.
+   *
+   * @return locais onde o código já foi visto aprontando das suas.
    */
   String[] locais() default {};
 

@@ -39,7 +39,9 @@ import java.lang.annotation.Documented;
 public @interface Macarronada {
 
   /**
-   * Define o nível de codificação macarrônica.
+   * Define o nível de codificação macarrônica apresentado.
+   *
+   * @return nível da macarronada.
    */
   IngredientesDaMacarronada[] com() default {};
 

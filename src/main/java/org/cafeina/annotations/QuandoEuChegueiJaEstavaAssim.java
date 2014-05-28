@@ -40,6 +40,8 @@ public @interface QuandoEuChegueiJaEstavaAssim {
 
   /**
    * Indica os pobres mantenedores oprimidos por este código surreal.
+   *
+   * @return pobres mantenedores oprimidos por este código surreal.
    */
   String[] oprimidosPeloSistema() default {};
 

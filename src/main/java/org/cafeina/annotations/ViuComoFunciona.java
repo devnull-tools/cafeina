@@ -40,6 +40,8 @@ public @interface ViuComoFunciona {
   /**
    * Aponte o dedo na cara identificando quem duvidou das suas habilidades
    * (ou da falta delas).
+   *
+   * @return todos os que duvidaram do feito.
    */
   String[] quemDuvidou() default {};
 

@@ -42,7 +42,9 @@ import java.lang.annotation.Target;
 public @interface FaltaFerro {
 
   /**
-   * Dieta necessária para acabar com a anemia.
+   * Dieta necessária para acabar com essa anemia.
+   *
+   * @return dieta necessária para acabar com essa anemia.
    */
   AlimentosRicosEmFerro[] consumir() default {};
 

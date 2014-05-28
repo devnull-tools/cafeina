@@ -43,6 +43,8 @@ public @interface CaiDeParaquedas {
 
   /**
    * Os menos afortunados que caíram no código.
+   *
+   * @return os menos afortunados que caíram no código.
    */
   String[] paraquedistas() default {};
 

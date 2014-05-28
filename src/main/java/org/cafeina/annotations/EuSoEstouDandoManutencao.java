@@ -32,7 +32,7 @@ import java.lang.annotation.Documented;
  * Anotação usada para indicar que você não foi o responsável por nenhuma
  * cagada, apenas corrigiu algum bug (geralmente um carinhoso NPE) ou
  * implementou alguma funcionalidade exótica.
- *
+ * <p/>
  * Esta anotação automaticamente valida qualquer tipo de gambiarra maquiavélica.
  *
  * @author Marcelo Guimarães
@@ -42,6 +42,8 @@ public @interface EuSoEstouDandoManutencao {
 
   /**
    * Indica os infelizes mantenedores que já se contaminaram com o código.
+   *
+   * @return os infelizes mantenedores que já se contaminaram com o código.
    */
   String[] passouPorAqui() default {};
 

@@ -39,11 +39,16 @@ public @interface IssoDavaUmaLinha {
 
   /**
    * Em qual linguagem daria pra fazer isso.
+   *
+   * @return qual linguagem daria pra fazer isso.
    */
   String em();
 
   /**
-   * Mostra como seria (se quiser semear a discórdia, deixe em branco).
+   * Mostra como seria o código nessa linguagem (se quiser semear a discórdia,
+   * deixe em branco).
+   *
+   * @return como seria o código nessa linguagem.
    */
   String olha() default "";
 
