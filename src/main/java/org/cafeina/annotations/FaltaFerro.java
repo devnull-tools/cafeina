@@ -28,7 +28,9 @@ package org.cafeina.annotations;
 
 import org.cafeina.enums.AlimentosRicosEmFerro;
 
-import java.lang.annotation.*;
+import java.lang.annotation.Documented;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Target;
 
 /**
  * Anotação dedicada para os integrantes de um modelo anêmico.

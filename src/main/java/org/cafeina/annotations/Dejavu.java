@@ -26,7 +26,7 @@
 
 package org.cafeina.annotations;
 
-import java.lang.annotation.*;
+import java.lang.annotation.Documented;
 
 /**
  * Ei! Acho que já vi esse código antes...

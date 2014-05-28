@@ -29,8 +29,6 @@ package org.cafeina.annotations;
 import org.cafeina.enums.IngredientesDaMacarronada;
 
 import java.lang.annotation.Documented;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
 
 /**
  * Anotação para aquele código espaguete-de-birosca-da-esquina.

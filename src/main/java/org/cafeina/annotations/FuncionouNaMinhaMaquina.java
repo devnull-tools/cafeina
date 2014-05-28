@@ -27,8 +27,6 @@
 package org.cafeina.annotations;
 
 import java.lang.annotation.Documented;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
 
 /**
  * Certificado de qualidade suprema em forma de anotação. Qualquer coisa

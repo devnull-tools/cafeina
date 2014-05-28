@@ -27,8 +27,6 @@
 package org.cafeina.annotations;
 
 import java.lang.annotation.Documented;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
 
 /**
  * Encontrou um código mais fedorento do que um gambá bêbado no lixão?

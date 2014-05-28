@@ -27,8 +27,6 @@
 package org.cafeina.annotations;
 
 import java.lang.annotation.Documented;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
 
 /**
  * Anotação usada para indicar que você não foi o responsável por nenhuma

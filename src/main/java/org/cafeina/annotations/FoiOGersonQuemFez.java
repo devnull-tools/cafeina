@@ -27,8 +27,6 @@
 package org.cafeina.annotations;
 
 import java.lang.annotation.Documented;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
 
 /**
  * Esta anotação indica um códio feito pelo
