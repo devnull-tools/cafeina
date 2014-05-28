@@ -10,6 +10,12 @@ Novas anotações:
   - SeFuncionouNaoMexe
   - FizEnquanto
   - GambiarraInside
+  - IssoVaiDarMerda
+  - NaoDisseQueIaDarMerda
+  - DeCuEhRola
+  - TiveEssaIdeia
+  
+Constantes
 
 ## v0.0.1 (28-05-2014)
 
