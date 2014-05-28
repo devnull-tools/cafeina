@@ -11,7 +11,7 @@ Novas anotações:
   - FizEnquanto
   - GambiarraInside
   - IssoVaiDarMerda
-  - NaoDisseQueIaDarMerda
+  - EuDisseQueIaDarMerda
   - DeCuEhRola
   - TiveEssaIdeia
   

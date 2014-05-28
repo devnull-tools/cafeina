@@ -34,7 +34,7 @@ import java.lang.annotation.Documented;
  * @author Marcelo Guimarães
  */
 @Documented
-public @interface NaoDisseQueIaDarMerda {
+public @interface EuDisseQueIaDarMerda {
 
   /**
    * Alivie a tensão comentando sobre o fato.
