@@ -35,5 +35,7 @@ import java.lang.annotation.Documented;
  * @author Marcelo Guimarães
  */
 @Documented
-public @interface Gluglu {
+public @interface GluGlu {
+
 }
+
