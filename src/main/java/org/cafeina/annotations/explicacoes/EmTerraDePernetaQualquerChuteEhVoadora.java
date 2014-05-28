@@ -24,42 +24,12 @@
  * SOFTWARE   OR   THE   USE   OR   OTHER   DEALINGS  IN  THE  SOFTWARE.
  */
 
-package org.cafeina.enums;
+package org.cafeina.annotations.explicacoes;
 
 /**
+ * Tudo é relativo!
+ *
  * @author Marcelo Guimarães
  */
-public enum Probabilidade {
-
-  /**
-   * Sempre vai acontecer
-   */
-  CEM_POR_CENTO(1),
-  /**
-   * Uma grande chance de acontecer
-   */
-  ALTA(0.9),
-  /**
-   * Talvez aconteça
-   */
-  MEDIA(0.5),
-  /**
-   * Dificilmente vai acontecer
-   */
-  BAIXA(0.2),
-  /**
-   * Fudeu!
-   */
-  MURPHY(1000);
-
-  private final double probabilidade;
-
-  Probabilidade(double probabilidade) {
-    this.probabilidade = probabilidade;
-  }
-
-  public double probabilidade() {
-    return this.probabilidade;
-  }
-
+public @interface EmTerraDePernetaQualquerChuteEhVoadora {
 }

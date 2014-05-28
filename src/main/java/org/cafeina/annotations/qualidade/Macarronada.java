@@ -26,7 +26,7 @@
 
 package org.cafeina.annotations.qualidade;
 
-import org.cafeina.enums.IngredientesDaMacarronada;
+import org.cafeina.enums.Ingredientes;
 
 import java.lang.annotation.Documented;
 
@@ -43,6 +43,6 @@ public @interface Macarronada {
    *
    * @return nível da macarronada.
    */
-  IngredientesDaMacarronada[] com() default {};
+  Ingredientes[] com() default {};
 
 }

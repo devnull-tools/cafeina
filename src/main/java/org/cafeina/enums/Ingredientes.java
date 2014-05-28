@@ -27,11 +27,11 @@
 package org.cafeina.enums;
 
 /**
- * Uma bela macarronada precisa de uma porrada de ingredientes.
+ * Enumeração de ingredientes para aquela receita de sucesso!
  *
  * @author Marcelo Guimarães
  */
-public enum IngredientesDaMacarronada {
+public enum Ingredientes {
 
   ALCAPARRA,
   ATUM,

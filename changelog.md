@@ -15,8 +15,13 @@
     - DeCuEhRola
     - TiveEssaIdeia
     - ProbabilidadeDeDarMerda
+    - EmTerraDePernetaQualquerChuteEhVoadora
   
 - Constantes para melhorar a escrita
+
+- Enumerações:
+
+    - Probabilidade
 
 - Categorias para as anotações
 
