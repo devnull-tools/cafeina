@@ -26,6 +26,8 @@
 
 package org.cafeina.annotations;
 
+import java.lang.annotation.Documented;
+
 /**
  * Indica que um código lendário foi introduzido. Prepare-se para atacá-lo e
  * ver que, a cada bug resolvido, vários outros aparecerão.
@@ -35,6 +37,7 @@ package org.cafeina.annotations;
  * Nick Dandoulakis</a>.
  * @author Marcelo Guimarães
  */
+@Documented
 public @interface CodigoHidra {
 
   /**

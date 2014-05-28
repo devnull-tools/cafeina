@@ -27,8 +27,6 @@
 package org.cafeina.annotations;
 
 import java.lang.annotation.Documented;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
 
 /**
  * Anotação que indica uma funcionalidade que, por se tratar de outros objetos
@@ -42,6 +40,5 @@ import java.lang.annotation.RetentionPolicy;
  * @see org.cafeina.annotations.AlonsoEsteveAqui
  */
 @Documented
-@Retention(RetentionPolicy.RUNTIME)
 public @interface EuSabiaIssoComMacas {
 }

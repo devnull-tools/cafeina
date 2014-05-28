@@ -27,8 +27,6 @@
 package org.cafeina.annotations;
 
 import java.lang.annotation.Documented;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
 
 /**
  * Indica um bug existente apenas em um ínfimo número de possibilidades
@@ -43,6 +41,5 @@ import java.lang.annotation.RetentionPolicy;
  * @author Marcelo Guimarães
  */
 @Documented
-@Retention(RetentionPolicy.RUNTIME)
 public @interface BugsonDeHiggs {
 }

@@ -34,7 +34,6 @@ import java.lang.annotation.*;
  * @author Marcelo Guimarães
  */
 @Documented
-@Retention(RetentionPolicy.RUNTIME)
 public @interface Dejavu {
 
   /**

@@ -27,8 +27,6 @@
 package org.cafeina.annotations;
 
 import java.lang.annotation.Documented;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
 
 /**
  * Anotação para ser usada naquelas vezes em que seu nome será lembrado pra
@@ -38,7 +36,6 @@ import java.lang.annotation.RetentionPolicy;
  * @author Marcelo Guimarães
  */
 @Documented
-@Retention(RetentionPolicy.RUNTIME)
 public @interface QuandoEuChegueiJaEstavaAssim {
 
   /**

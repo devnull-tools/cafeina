@@ -39,6 +39,5 @@ import java.lang.annotation.RetentionPolicy;
  * @author Marcelo Guimarães
  */
 @Documented
-@Retention(RetentionPolicy.RUNTIME)
 public @interface FoiOGersonQuemFez {
 }

@@ -28,11 +28,14 @@ package org.cafeina.annotations;
 
 import org.cafeina.enums.NivelDeMiau;
 
+import java.lang.annotation.Documented;
+
 /**
  * Anotação que indica uma gambiarra bem ou mal sucedida.
  *
  * @author Marcelo Guimarães
  */
+@Documented
 public @interface Miau {
 
   /**

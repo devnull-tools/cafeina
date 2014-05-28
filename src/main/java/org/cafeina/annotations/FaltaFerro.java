@@ -36,7 +36,6 @@ import java.lang.annotation.*;
  * @author Marcelo Guimarães
  */
 @Documented
-@Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
 public @interface FaltaFerro {
 

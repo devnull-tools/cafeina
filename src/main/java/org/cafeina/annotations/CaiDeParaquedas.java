@@ -41,6 +41,9 @@ import java.lang.annotation.RetentionPolicy;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface CaiDeParaquedas {
 
+  /**
+   * Os menos afortunados que caíram no código.
+   */
   String[] paraquedistas() default {};
 
 }
