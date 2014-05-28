@@ -34,5 +34,5 @@ import java.lang.annotation.Documented;
  * @author Marcelo Guimarães
  */
 @Documented
-public @interface IstoNonEcziste {
+public @interface IssoNonEcziste {
 }
