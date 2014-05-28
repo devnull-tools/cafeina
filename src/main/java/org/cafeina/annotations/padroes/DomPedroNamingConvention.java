@@ -35,5 +35,5 @@ import java.lang.annotation.Documented;
  * @author Marcelo Guimarães
  */
 @Documented
-public @interface ExtendsDomPedro {
+public @interface DomPedroNamingConvention {
 }

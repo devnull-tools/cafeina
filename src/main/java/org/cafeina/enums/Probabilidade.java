@@ -27,39 +27,17 @@
 package org.cafeina.enums;
 
 /**
+ * Enumeração para facilitar a determinação de probabilidades.
+ *
  * @author Marcelo Guimarães
  */
 public enum Probabilidade {
 
-  /**
-   * Sempre vai acontecer
-   */
-  CEM_POR_CENTO(1),
-  /**
-   * Uma grande chance de acontecer
-   */
-  ALTA(0.9),
-  /**
-   * Talvez aconteça
-   */
-  MEDIA(0.5),
-  /**
-   * Dificilmente vai acontecer
-   */
-  BAIXA(0.2),
-  /**
-   * Fudeu!
-   */
-  MURPHY(1000);
-
-  private final double probabilidade;
-
-  Probabilidade(double probabilidade) {
-    this.probabilidade = probabilidade;
-  }
-
-  public double probabilidade() {
-    return this.probabilidade;
-  }
+  ALTA,
+  MEDIA,
+  BAIXA,
+  MURPHY,
+  NAO_IMPORTA_PORQUE_VOU_ME_FERRAR_DE_QUALQUER_JEITO_MESMO,
+  NAO_IMPORTA_PORQUE_NAO_SOU_EU_QUEM_VAI_ARRUMAR_ESSA_MERDA_MESMO
 
 }

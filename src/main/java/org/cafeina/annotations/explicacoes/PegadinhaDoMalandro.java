@@ -26,6 +26,8 @@
 
 package org.cafeina.annotations.explicacoes;
 
+import org.cafeina.annotations.padroes.GluGlu;
+
 import java.lang.annotation.Documented;
 
 /**
@@ -35,4 +37,7 @@ import java.lang.annotation.Documented;
  */
 @Documented
 public @interface PegadinhaDoMalandro {
+
+  GluGlu[] value() default {@GluGlu, @GluGlu, @GluGlu};
+
 }
