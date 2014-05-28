@@ -29,8 +29,9 @@ package org.cafeina.annotations.sentimento;
 import java.lang.annotation.Documented;
 
 /**
- * Nenhum código pode ser assim tão tosco! Possivelmente é o maior desafio
- * para um mantenedor {@link SouFoda muito experiente}.
+ * Nenhum código pode ser assim tão tosco! Até mesmo o compilador torna-se
+ * temperamental e se recusa a compilar o código. Esse, provavelmente, é o maior
+ * desafio para um programador {@link SouFoda muito experiente}.
  *
  * @author Marcelo Guimarães
  */

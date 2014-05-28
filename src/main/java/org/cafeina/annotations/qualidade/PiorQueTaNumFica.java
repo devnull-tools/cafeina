@@ -29,11 +29,8 @@ package org.cafeina.annotations.qualidade;
 import java.lang.annotation.Documented;
 
 /**
- * Nível supremo da insuficiência cerebral. Nem mesmo uma
- * {@link org.cafeina.annotations.padroes.Refudeuracao refuderação} pode tornar o
- * código pior. Isso indica o último estágio que beira o limite da compreensão
- * humana. Quebrar esse limite implicará no uso de
- * {@link org.cafeina.annotations.sentimento.IssoNonEcziste}.
+ * Nível supremo da insuficiência cerebral. Nada pode tornar o código pior. Isso
+ * indica o último estágio que beira o limite da compreensão humana.
  *
  * @author Marcelo Guimarães
  */
