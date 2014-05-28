@@ -40,6 +40,6 @@ public @interface PraQueEstaMerda {
   /**
    * Indica uma maneira melhor (se houver) ou uma cagada menos fedorenta.
    */
-  String comentario() default "";
+  String se() default "";
 
 }
