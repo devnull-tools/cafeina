@@ -24,30 +24,19 @@
  * SOFTWARE   OR   THE   USE   OR   OTHER   DEALINGS  IN  THE  SOFTWARE.
  */
 
-package org.cafeina.annotations.qualidade;
-
-import org.cafeina.enums.Crescimento;
-
-import java.lang.annotation.Documented;
+package org.cafeina.enums;
 
 /**
- * Indica que um código lendário foi introduzido. Prepare-se para atacá-lo e
- * ver que, a cada bug resolvido, vários outros aparecerão.
- * <p/>
- * Este nome é uma adaptação do termo Hydra Code, bolado por
- * <a href="http://stackoverflow.com/users/108130/nick-dandoulakis">
- * Nick Dandoulakis</a>.
+ * Enumeração dos níveis de crescimento.
  *
  * @author Marcelo Guimarães
  */
-@Documented
-public @interface CodigoHidra {
+public enum Crescimento {
 
-  /**
-   * Nível de crescimento de bugs.
-   *
-   * @return nível de crescimento de bugs.
-   */
-  Crescimento value();
+  LINEAR,
+  EXPONENCIAL,
+  DESCOMUNAL,
+  NUNCA_ANTES_VISTO_NA_HISTORIA_DESTE_PAIS,
+  AO_INFINITO_E_ALEM
 
 }
