@@ -24,25 +24,59 @@
  * SOFTWARE   OR   THE   USE   OR   OTHER   DEALINGS  IN  THE  SOFTWARE.
  */
 
-package org.cafeina.annotations;
-
-import org.cafeina.enums.AlimentosRicosEmFerro;
-
-import java.lang.annotation.*;
+package org.cafeina.enums;
 
 /**
- * Anotação dedicada para os integrantes de um modelo anêmico.
+ * Alimentos ricos em ferro.
  *
  * @author Marcelo Guimarães
  */
-@Documented
-@Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.TYPE)
-public @interface FaltaFerro {
+public enum AlimentosRicosEmFerro {
+
+  // origem animal
+  COSTELA_DE_PORCO(3),
+  VITELA(3.6),
+  CORDEIRO(2.2),
+  FIGADO_DE_VITELA(10.6),
+  FARINHA_DE_PEIXE(41),
+  MEXILHAO_COZIDO(6),
+  GEMA_DE_OVO(5.87),
+
+  // origem vegetal
+
+  PAO_DE_CEVADA(6.5),
+  PAO_INTEGRAL(4.5),
+  CEREAL(4.5),
+  AVEIA_CRUA(4.5),
+  SALSA(3.1),
+  GRAO_DE_BICO_COZIDO(1.4),
+  ERVILHA_COZIDA(1.9),
+  LENTILHA_COZIDA(2.44),
+  AGRIAO(2.6),
+  BETERRABA_CRUA(2.5),
+  GRAO_INTEGRAL(7.1),
+  NOZES(7.1),
+  CASTANHAS(7.1),
+  FEIJAO(7.1),
+  MELADO_DE_CANA_DE_ACUCAR(4.2),
+  RAPADURA(4.2),
+  ACUCAR_MASCAVO(4.2),
+  PIMENTAO(8.7),
+  CHOCOLATE_MEIO_AMARGO(4.4);
+
+  private final double mgDeFerroPor100g;
+
+  AlimentosRicosEmFerro(double mgDeFerroPor100g) {
+    this.mgDeFerroPor100g = mgDeFerroPor100g;
+  }
 
   /**
-   * Dieta necessária para acabar com a anemia.
+   * Retorna a quantidade de ferro em mg presente em 100 g de alimento.
+   *
+   * @return a quantidade de ferro em mg presente em 100 g de alimento.
    */
-  AlimentosRicosEmFerro[] consumir() default {};
+  public double mgDeFerroPor100g() {
+    return mgDeFerroPor100g;
+  }
 
 }
