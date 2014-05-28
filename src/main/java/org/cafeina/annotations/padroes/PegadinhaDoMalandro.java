@@ -24,7 +24,7 @@
  * SOFTWARE   OR   THE   USE   OR   OTHER   DEALINGS  IN  THE  SOFTWARE.
  */
 
-package org.cafeina.annotations.explicacoes;
+package org.cafeina.annotations.padroes;
 
 import org.cafeina.annotations.padroes.GluGlu;
 
