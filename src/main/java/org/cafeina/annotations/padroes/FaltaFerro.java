@@ -24,7 +24,7 @@
  * SOFTWARE   OR   THE   USE   OR   OTHER   DEALINGS  IN  THE  SOFTWARE.
  */
 
-package org.cafeina.annotations.qualidade;
+package org.cafeina.annotations.padroes;
 
 import org.cafeina.enums.AlimentosRicosEmFerro;
 
