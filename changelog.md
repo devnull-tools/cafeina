@@ -17,6 +17,7 @@
     - ProbabilidadeDeDarMerda
     - EmTerraDePernetaQualquerChuteEhVoadora
     - PropriedadeDe
+    - ExtendsDomPedro
   
 - Constantes para melhorar a escrita
 
