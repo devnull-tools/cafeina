@@ -50,6 +50,6 @@ public @interface IssoDavaUmaLinha {
    *
    * @return como seria o código nessa linguagem.
    */
-  String olha() default "";
+  String fatality() default "";
 
 }

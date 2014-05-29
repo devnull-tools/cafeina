@@ -29,14 +29,14 @@ package org.cafeina.annotations.sentimento;
 import org.cafeina.enums.Acrobacia;
 
 /**
- * Épico que dispensa comentários.
+ * Dispensa comentários.
  *
  * @author Marcelo Guimarães
  */
 public @interface FacePalm {
 
   /**
-   * Combine-o com uma bela acrobacia para ilustrar o quão terrível foi
+   * Combine com uma bela acrobacia para ilustrar o quão terrível foi
    * a sensação.
    */
   Acrobacia value() default Acrobacia.EM_QUEDA_LIVRE;

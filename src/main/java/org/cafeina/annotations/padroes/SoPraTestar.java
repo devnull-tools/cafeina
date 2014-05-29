@@ -24,16 +24,17 @@
  * SOFTWARE   OR   THE   USE   OR   OTHER   DEALINGS  IN  THE  SOFTWARE.
  */
 
-package org.cafeina.annotations.explicacoes;
+package org.cafeina.annotations.padroes;
 
 import java.lang.annotation.Documented;
 
 /**
- * Anotação perfeita para aqueles códigos onde a especificação não passa de um
- * mero detalhe que não foi dado a devida atenção.
+ * Anotação que indica algo feito somente para fins de testes (como aquelas
+ * classes lindas com métodos main maravilhosos e um monte de System.out felizes
+ * e contentes tomando cerveja e dançando Macarena).
  *
  * @author Marcelo Guimarães
  */
 @Documented
-public @interface SoQueNao {
+public @interface SoPraTestar {
 }

@@ -24,16 +24,13 @@
  * SOFTWARE   OR   THE   USE   OR   OTHER   DEALINGS  IN  THE  SOFTWARE.
  */
 
-package org.cafeina.annotations.explicacoes;
-
-import java.lang.annotation.Documented;
+package org.cafeina.annotations.sentimento;
 
 /**
- * Anotação perfeita para aqueles códigos onde a especificação não passa de um
- * mero detalhe que não foi dado a devida atenção.
+ * Tão épico que dispensa comentários.
  *
  * @author Marcelo Guimarães
  */
-@Documented
-public @interface SoQueNao {
+public @interface EpicFail {
+
 }

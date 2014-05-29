@@ -29,7 +29,9 @@ package org.cafeina.annotations.explicacoes;
 import java.lang.annotation.Documented;
 
 /**
- * Anotação que explica o porquê de um código mal feito.
+ * Fez algo que não se orgulha e seu nome tá no SCM? Diga a todos o porquê dessa
+ * merda binária e durma tranquilo. Também pode ser usado pra se gabar de algo
+ * complexo que você fez.
  *
  * @author Marcelo Guimarães
  */

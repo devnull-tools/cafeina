@@ -31,8 +31,8 @@ import org.cafeina.Constantes;
 import java.lang.annotation.Documented;
 
 /**
- * Indica um tipo de comentário especial que somente os inteligentes podem ver.
- * Não se reprima caso não consiga lê-los.
+ * Indica um tipo de código especial que somente os inteligentes podem ver.
+ * Não se reprima caso não consiga lê-lo.
  *
  * @author Marcelo Guimarães
  */

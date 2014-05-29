@@ -29,11 +29,11 @@ package org.cafeina.annotations.padroes;
 import java.lang.annotation.Documented;
 
 /**
- * Anotação para aqueles nomes tão pequenos e diretos como o de nosso monarca
- * Dom Pedro I.
+ * Quem precisa de comentários e documentação quando se pode ter nomes
+ * esclarecedores?
  *
  * @author Marcelo Guimarães
  */
 @Documented
-public @interface DomPedroNamingConvention {
+public @interface ONomeDizTudo {
 }
