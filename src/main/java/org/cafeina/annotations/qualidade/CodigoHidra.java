@@ -33,7 +33,7 @@ import java.lang.annotation.Documented;
 /**
  * Indica que um código lendário foi introduzido. Prepare-se para atacá-lo e
  * ver que, a cada bug resolvido, vários outros aparecerão.
- * <p/>
+ *
  * Este nome é uma adaptação do termo Hydra Code, bolado por
  * <a href="http://stackoverflow.com/users/108130/nick-dandoulakis">
  * Nick Dandoulakis</a>.
