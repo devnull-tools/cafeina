@@ -2,29 +2,9 @@
 
 ## v0.0.2
  
-- Novas anotações:
-
-    - PadraoFIFA
-    - AcheiNoGoogle
-    - Lavoisier
-    - SeFuncionouNaoMexe
-    - FizEnquanto
-    - GambiarraInside
-    - IssoVaiDarMerda
-    - EuDisseQueIaDarMerda
-    - DeCuEhRola
-    - TiveEssaIdeia
-    - ProbabilidadeDeDarMerda
-    - EmTerraDePernetaQualquerChuteEhVoadora
-    - PropriedadeDe
-    - DomPedroNamingConvention
-  
+- Novas anotações
 - Constantes para melhorar a escrita
-
-- Enumerações:
-
-    - Probabilidade
-
+- Enumerações
 - Categorias para as anotações
 
 ## v0.0.1 (28-05-2014)
