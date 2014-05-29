@@ -287,11 +287,11 @@ Anotação para enfiar o dedo na cara de quem não te ouviu.
 
 Anotação para uso em análises de risco e prevenção de acidentes.
 
-## CaiDeParaquedas
+## @CaiDeParaquedas
 
 Anotação utilizada para indicar que o programador caiu de paraquedas no desenvolvimento do sistema. O poder desta anotação é tão supremo que permite qualquer tipo de cagada sem punição alguma. Use com moderação.
 
-## DeCuEhRola
+## @DeCuEhRola
 
 Anotação para expressar desgosto. Use sem moderação.
 
