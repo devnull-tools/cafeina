@@ -157,15 +157,6 @@ public void processar(String operacao) {
 
 Pensou que era só alterar o `for`?
 
-~~~java
-@PegadinhaDoMalandro({
-  @GluGlu, @GluGlu, @GluGlu, @GluGlu
-})
-public void processa() {
-
-}
-~~~
-
 ## @PokemonExceptionHandling
 
 Indica que o método implementa o padrão de projeto Pokemon Exception Handling, que consiste em capturar todas as exceções e aumentar a taxa de suicídio entre os mantenedores de código!
@@ -396,6 +387,10 @@ Expresse sua ira e libere o seu KI.
 ## @ViuComoFunciona
 
 Foi desafiado? Mate a cobra e mostre o pau com esta anotação. Não interessa se ficou bom, o que interessa é que a bagaça funcionou!
+
+# Exemplos de Uso
+
+
 
 [npj]: <http://blog.codinghorror.com/new-programming-jargon>
 [gag]: <https://code.google.com/p/gag/>
