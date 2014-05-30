@@ -388,7 +388,7 @@ Expresse sua ira e libere o seu KI.
 
 Foi desafiado? Mate a cobra e mostre o pau com esta anotação. Não interessa se ficou bom, o que interessa é que a bagaça funcionou!
 
-## AgoraSimFudeu
+## @AgoraSimFudeu
 
 Anotação para aqueles momentos em que você achava que nada iria superar aquela jumentice no código... mas... você percebeu que estava errado.
 
