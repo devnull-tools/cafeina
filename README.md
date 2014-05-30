@@ -388,9 +388,66 @@ Expresse sua ira e libere o seu KI.
 
 Foi desafiado? Mate a cobra e mostre o pau com esta anotação. Não interessa se ficou bom, o que interessa é que a bagaça funcionou!
 
+## AgoraSimFudeu
+
+Anotação para aqueles momentos em que você achava que nada iria superar aquela jumentice no código... mas... você percebeu que estava errado.
+
 # Exemplos de Uso
 
+~~~java
+/**
+ * Envia os o email de aceite para as listas de distribuições
+ */
+@SoQueNao
+public void enviarEmailDeAceite(List<Distribuicao> distribuicoes, Usuario usuarioLogado) {
+  for (Distribuicao distribuicao : distribuicoes) {
+    this.enviaEmailUsuarioAceite(distribuicao, usuarioLogado);
+    this.enviaEmailResponsavelTecnico(distribuicao, usuarioLogado);
+    this.enviaEmailResponsavelAgir(distribuicao, usuarioLogado);
+    this.enviaEmailChefeGabinete(distribuicao, usuarioLogado);
+    break;
+  }
+}
+~~~
 
+~~~java
+@AcheiNoGoogle
+@FodasticoIsso
+@PokemonExceptionHandling
+public Method getMethod(Class classe, String nomeMetodo, Class... parametros) {
+  Method method = null;
+  try {
+    if (parametros.length > 0) {
+      method = classe.getMethod(nomeMetodo, parametros);
+    } else {
+      method = classe.getMethod(nomeMetodo);
+    }
+  } catch (SecurityException e) {
+
+  } catch (NoSuchMethodException e) {
+
+  }
+  return method;
+}
+~~~
+
+~~~java
+@PutaQuePariu
+@SeFuncionouNaoMexe
+@IssoVaiDarMerda
+@PadraoFIFA
+public abstract class DaoFactory extends ServicoMensagem {
+  // ...
+}
+
+@AgoraSimFudeu
+@IssoNonEcziste
+@EhUmaCiladaBino
+@CorramParaAsColinas
+public class ServicoModeloFachada extends DaoFactory {
+  // ..
+}
+~~~
 
 [npj]: <http://blog.codinghorror.com/new-programming-jargon>
 [gag]: <https://code.google.com/p/gag/>
