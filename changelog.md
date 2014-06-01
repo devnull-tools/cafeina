@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.0.2
+## v0.0.2 (01-06-2014)
  
 - Novas anotações
 - Constantes para melhorar a escrita
