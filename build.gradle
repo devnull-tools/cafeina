@@ -26,10 +26,13 @@
 
 apply plugin: 'java'
 apply plugin: 'maven'
+apply plugin: 'signing'
 
 configurations {
-  project.group = "org.cafeina"
-  project.version = "0.0.2"
+  project.group = "tools.devnull"
+  project.version = "0.1.0"
+
+  project.ext["pomFile"] = "$buildDir/${project.name}-${project.version}.pom"
 
   project.description = "Projeto destinado a mapear as diversas situações em " +
       "que nós, programadores, temos que enfrentar em nossos árduos e sombrios " +
@@ -60,18 +63,14 @@ artifacts {
 task pom << {
   pom {
     project {
-      groupId 'org.cafeina'
-      artifactId 'cafeina'
+      groupId project.group
+      artifactId project.name
       packaging 'jar'
 
-      name 'cafeina'
+      name project.name
       description project.description
 
       url 'https://github.com/ataxexe/cafeina'
-
-      scm {
-        url 'git@github.com:ataxexe/cafeina.git'
-      }
 
       licenses {
         license {
@@ -80,14 +79,29 @@ task pom << {
           distribution 'repo'
         }
       }
+
+      developers {
+        developer {
+          id 'ataxexe'
+          name 'Marcelo Guimarães'
+          email 'ataxexe@devnull.tools'
+          organizationUrl 'http://devnull.tools'
+          url 'http://entra.la'
+        }
+      }
+
+      scm {
+        connection 'scm:git:git@github.com:ataxexe/cafeina.git'
+        url 'https://github.com/ataxexe/cafeina'
+      }
     }
-  }.writeTo("$buildDir/pom.xml")
+  }.writeTo(project.pomFile)
 }
 
 task dist(type: Zip,
     dependsOn: [clean, jar, sourcesJar, javadocJar, pom]) {
   from "$buildDir/libs"
-  from "$buildDir/pom.xml"
+  from project.pomFile
   from "changelog.md"
   from "README.md"
 }

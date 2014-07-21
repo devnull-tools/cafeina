@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.1
+
+Mudança no groupId
+
 ## v0.0.2 (01-06-2014)
  
 - Novas anotações
