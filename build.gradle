@@ -32,7 +32,7 @@ configurations {
   project.group = "tools.devnull"
   project.version = "0.1.0"
 
-  project.ext["pomFile"] = "$buildDir/${project.name}-${project.version}.pom"
+  project.ext["pomFile"] = "${buildDir}/${project.name}-${project.version}.pom"
 
   project.description = "Projeto destinado a mapear as diversas situações em " +
       "que nós, programadores, temos que enfrentar em nossos árduos e sombrios " +
@@ -100,7 +100,7 @@ task pom << {
 }
 
 task dist(type: Zip,
-    dependsOn: [clean, jar, sourcesJar, javadocJar, pom]) {
+    dependsOn: [clean, pom, jar, sourcesJar, javadocJar]) {
   from "$buildDir/libs"
   from project.pomFile
   from "changelog.md"
