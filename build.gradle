@@ -107,3 +107,6 @@ task dist(type: Zip,
   from "README.md"
 }
 
+signing {
+  sign configurations.archives
+}
