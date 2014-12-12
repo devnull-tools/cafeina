@@ -8,6 +8,13 @@ Este projeto tem uma forte influência do [Google Annotations Gallery][gag] e do
 
 Basta executar o comando `gradle dist` e pronto!
 
+# Utilizando o Projeto
+
+O CAFEINA agora está no Maven Central, basta importá-lo com os seguintes identificadores:
+
+- groupId: tools.devnull
+- artifactId: cafeina
+
 # Usando as Anotações
 
 ## @AcheiNoGoogle
