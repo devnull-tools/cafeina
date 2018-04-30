@@ -1,5 +1,3 @@
-.idea/workspace.xml
-.gradle
-out
-build
-gradle.properties
+.idea
+cafeina.iml
+target

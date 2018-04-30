@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="cafeina:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/cafeina_jar</output-path>
-    <root id="archive" name="cafeina.jar">
-      <element id="module-output" name="cafeina" />
-    </root>
-  </artifact>
-</component>
