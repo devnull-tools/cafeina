@@ -1,0 +1,40 @@
+image: devnull-tools/maven
+
+stages:
+  - build
+  - test
+  - release
+
+mvn:package:
+  stage: build
+  artifacts:
+    paths:
+      - target/*
+  script:
+    - build
+
+mvn:test:
+  stage: test
+  script:
+    - test
+  dependencies:
+    - mvn:package
+
+mvn:publish:sonatype:
+  stage: release
+  script:
+    - release public
+  dependencies:
+    - mvn:package
+  only:
+    - tags
+
+mvn:publish:internal:
+  stage: release
+  script:
+    - release private
+  dependencies:
+    - mvn:test
+  only:
+    - tags
+    - /^release-.*$/
