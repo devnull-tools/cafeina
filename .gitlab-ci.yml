@@ -16,7 +16,7 @@ mvn:package:
 mvn:test:
   stage: test
   script:
-    - test
+    - run-tests
   dependencies:
     - mvn:package
 
