@@ -1,7 +1,5 @@
 package tools.devnull.cafeina.annotations.explicacoes;
 
-import tools.devnull.cafeina.enums.Animal;
-
 /**
  * Anotação para informar os animais que morreram durante a confecção
  * do referido código.
@@ -12,6 +10,6 @@ import tools.devnull.cafeina.enums.Animal;
  */
 public @interface AnimaisQueMorreram {
 
-  Animal[] value();
+  String[] value();
 
 }
