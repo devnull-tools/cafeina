@@ -33,7 +33,7 @@
     <version>1.2.2</version>
   </parent>
   <artifactId>cafeina</artifactId>
-  <version>0.1.0</version>
+  <version>0.2.0</version>
   <name>cafeina</name>
   <description>Projeto destinado a mapear as diversas situações em que nós, programadores, temos que enfrentar em nossos
     árduos e sombrios dias (e noites, e madrugadas, e mais outros dias) de trabalho como papéis higiênicos de TI com
